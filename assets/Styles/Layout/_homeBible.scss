@@ -1,0 +1,28 @@
+// Home, Accueil
+.section-container {
+    display: grid;
+    grid-template-columns: 75% 35%;
+    text-align: justify;
+    margin: 25px 0px 50px 0px;
+    padding: 150px;
+
+    .v-line {
+    border-left: thick solid $color4;
+    height: 180%;
+    left: 50%;
+    position: absolute;
+    }
+    .section-left {
+        justify-content: start;
+        top: 1.5rem
+    }
+    .section-right {
+        justify-content: end;
+        top: 1.5rem
+    }
+
+    h4 {
+        font-family: $font2;
+        font-size: 1.7rem;
+    }
+}

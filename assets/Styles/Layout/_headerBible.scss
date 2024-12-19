@@ -1,0 +1,36 @@
+//*** En Tête, Descriptions / Index et Préface ***
+// En Tête
+.header-1 {
+    font-size: 3.2rem;
+    margin: 15px;
+    padding: 0 5px 0 15px;
+    text-align: center;
+    box-shadow: 7px 5px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 2px;
+
+    h1, a{
+        color: $color4;
+        transition: 0.7s ease-in-out;
+        text-decoration: none;
+    }
+}
+h4  {
+    font-size: 2rem;
+    text-align: center;
+    color: $color4;
+
+    a {
+        color: $color1;
+        text-decoration: none;
+    }
+}
+h5 {
+    font-size: 1.9rem;
+    text-align: center;
+    color: $color4;
+
+    p {
+        text-align: center;
+        margin: 15px 0 15px 0;
+    }
+}
